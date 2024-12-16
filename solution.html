@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error Solution</title>
+</head>
+<body>
+  <div id="myDiv"></div>
+  <script>
+    let myArray = ["<p>Hello</p>", "<p>World</p>"];
+    let div = document.getElementById("myDiv");
+    myArray.forEach(item => {
+      div.innerHTML += item; //Correct way to append elements from array
+    });
+  </script>
+</body>
+</html>
