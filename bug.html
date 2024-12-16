@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error</title>
+</head>
+<body>
+  <div id="myDiv"></div>
+  <script>
+    //Incorrect use of innerHTML with an array
+    let myArray = ["<p>Hello</p>", "<p>World</p>"];
+    document.getElementById("myDiv").innerHTML = myArray; //Error: This will output the array as a string
+  </script>
+</body>
+</html>
