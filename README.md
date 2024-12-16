@@ -1,0 +1,1 @@
+This example demonstrates an uncommon error in HTML when using innerHTML with a JavaScript array.  The correct approach is to iterate through the array and append each element individually.
